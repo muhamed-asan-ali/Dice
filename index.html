@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dice Game</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h4>Let's Play Dice</h4>
+<p id="status" class="status">Roll the dice to start!</p>
+
+    <img class="diceimg" id="dice-pic" src="1.png" alt="1">
+
+
+  <p id="player1" class="player1">Player 1: 0</p>
+  <p id="player2" class="player2">Player 2: 0</p>
+
+  <div class="reset" id="player1Button" onclick="rollDice(1)">Roll Now</div>
+  <div class="reset2" id="player2Button" onclick="rollDice(2)">Roll Now</div>
+  <div type="button" class="reset1" value="Reload Page" onClick="window.location.reload(true)">Reset</div>
+<script src="script.js"></script>
+</body>
+</html>
